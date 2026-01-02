@@ -1,5 +1,5 @@
-import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
@@ -33,7 +33,10 @@ export default function Navbar() {
         >
             <nav className="container mx-auto flex justify-between items-center">
                 <div>
-                    <NavLink to="/" className="text-xl font-bold hover:text-blue-300 transition-colors duration-300">
+                    <NavLink
+                        to="/"
+                        className="text-xl font-bold hover:text-blue-300 transition-colors duration-300"
+                    >
                         MB AUTO
                     </NavLink>
                 </div>
@@ -41,21 +44,27 @@ export default function Navbar() {
                     <NavLink
                         to="/"
                         className="hover:text-blue-300 transition-colors duration-300"
-                        style={({ isActive }) => (isActive ? activeLinkStyle : undefined)}
+                        style={({ isActive }) =>
+                            isActive ? activeLinkStyle : undefined
+                        }
                     >
                         Home
                     </NavLink>
                     <NavLink
                         to="/services"
                         className="hover:text-blue-300 transition-colors duration-300"
-                        style={({ isActive }) => (isActive ? activeLinkStyle : undefined)}
+                        style={({ isActive }) =>
+                            isActive ? activeLinkStyle : undefined
+                        }
                     >
                         Services
                     </NavLink>
                     <NavLink
                         to="/contact"
                         className="hover:text-blue-300 transition-colors duration-300"
-                        style={({ isActive }) => (isActive ? activeLinkStyle : undefined)}
+                        style={({ isActive }) =>
+                            isActive ? activeLinkStyle : undefined
+                        }
                     >
                         Contact
                     </NavLink>

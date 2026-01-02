@@ -2,7 +2,8 @@ export const services = [
     {
         id: "oil-change",
         name: "Periodic Engine Oil Changes",
-        description: "Keep your engine running smoothly with our regular oil change services.",
+        description:
+            "Keep your engine running smoothly with our regular oil change services.",
         details: [
             "High-quality engine oil replacement",
             "Oil filter replacement",
@@ -14,7 +15,8 @@ export const services = [
     {
         id: "brake-service",
         name: "Brake Servicing and Maintenance",
-        description: "Ensure your safety with our comprehensive brake inspection and repair.",
+        description:
+            "Ensure your safety with our comprehensive brake inspection and repair.",
         details: [
             "Brake pad and shoe replacement",
             "Brake fluid flush and replacement",
@@ -26,7 +28,8 @@ export const services = [
     {
         id: "diagnostics",
         name: "Vehicle On-Board Diagnostics",
-        description: "We use the latest diagnostic tools to identify and fix issues quickly.",
+        description:
+            "We use the latest diagnostic tools to identify and fix issues quickly.",
         details: [
             "Check engine light diagnostics",
             "Computerized diagnostics for all major brands",
@@ -50,7 +53,8 @@ export const services = [
     {
         id: "up-keeping",
         name: "General Vehicle Up Keeping",
-        description: "From tire rotations to fluid checks, we'll keep your car in top shape.",
+        description:
+            "From tire rotations to fluid checks, we'll keep your car in top shape.",
         details: [
             "Tire rotation and balancing",
             "Wheel alignment",
@@ -62,7 +66,8 @@ export const services = [
     {
         id: "autobody-repair",
         name: "Spray Painting & Autobody Repair",
-        description: "We provide professional spray painting and autobody repair services.",
+        description:
+            "We provide professional spray painting and autobody repair services.",
         details: [
             "Collision repair and dent removal",
             "Full-body spray painting",
